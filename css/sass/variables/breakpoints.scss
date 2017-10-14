@@ -1,0 +1,16 @@
+﻿$SCREEN_XS-MAX: 320px;
+$SCREEN_S-MIN: 321px;
+$SCREEN_S-MAX: 767px;
+$SCREEN_M-MIN: 768px;
+$SCREEN_M-MAX: 1024px;
+$SCREEN_L-MIN: 1025px;
+$SCREEN_MAX-WIDTH: 1300px;
+
+$MQ_XS:  "only screen and (max-width: $SCREEN_XS-MAX)";
+$MQ_S-XS:  "only screen and (max-width: $SCREEN_S-MAX)";
+$MQ_S: "only screen and (min-width: $SCREEN_S-MIN) and (max-width: $SCREEN_S-MAX)";
+ //$MQ_TABP: "only screen and (min-width: 768px) and (max-width: $SCREEN_S-MAX)"; //TAB-PORTRAIT
+$MQ_S-M:  "only screen and (max-width: $SCREEN_M-MAX)";
+$MQ_M: "only screen and (min-width: $SCREEN_M-MIN) and (max-width: $SCREEN_M-MAX)";
+$MQ_M-L: "only screen and (min-width: $SCREEN_M-MIN)";
+$MQ_L: "only screen and (min-width: $SCREEN_L-MIN)";

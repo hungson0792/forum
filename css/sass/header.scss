@@ -1,0 +1,43 @@
+.bn_header {
+    background-color:  $BN-TOPNAV-BGR;
+    position: relative;
+    
+    &-logo {
+        background-color: $BN-BLACK;
+        font: 2em bold $BN-FONT-BASE;
+        padding: 0 13px;
+        height: 78px;
+        line-height: 78px;
+        margin-right: 5px;
+        display: block;
+        color: $BN-WHITE;        
+    }
+    &-account {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        &__link{
+            color: #69abf5;
+            &--icon {
+                background-repeat: no-repeat;
+                height: 36px;
+                background-size: 35px;
+                background-image:url(../../img/icon-profiles-sprite.png); 
+                background-position: 12px 0;
+                display: block;
+                .bn_login & {
+                    background-position: 12px -37px;
+                }
+            }
+            &--label {
+                color: $BN-TOPNAV-ACTIVE;
+                text-transform: uppercase;
+                white-space: nowrap;
+                font: 0.75em bold $BN-FONT-BASE;
+            }
+        }
+       
+    }
+
+}
+

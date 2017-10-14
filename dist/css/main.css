@@ -1,0 +1,73 @@
+/*$BN-HEADER-BGR:#010101;*/
+/*$BN-LEFT-COLUMN-BGR:#e9e9e9;*/
+.bn_display-flex {
+  display: flex;
+  display: -ms-flexbox; }
+
+@media only screen and (min-width: 1025px) {
+  .bn_body {
+    background-color: #a5c1e0;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif; }
+  .bn_page__container {
+    max-width: 1100px;
+    margin: 20px auto; } }
+
+.bn_header {
+  background-color: #e9e9e9;
+  position: relative; }
+  .bn_header-logo {
+    background-color: #000;
+    font: 2em bold Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0 13px;
+    height: 78px;
+    line-height: 78px;
+    margin-right: 5px;
+    display: block;
+    color: #fff; }
+  .bn_header-account {
+    position: absolute;
+    top: 14px;
+    right: 14px; }
+    .bn_header-account__link {
+      color: #69abf5; }
+      .bn_header-account__link--icon {
+        background-repeat: no-repeat;
+        height: 36px;
+        background-size: 35px;
+        background-image: url(../../img/icon-profiles-sprite.png);
+        background-position: 12px 0;
+        display: block; }
+        .bn_login .bn_header-account__link--icon {
+          background-position: 12px -37px; }
+      .bn_header-account__link--label {
+        color: #69abf5;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font: 0.75em bold Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+html, body {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+a {
+  text-decoration: none; }
+  a:active, a:focus {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.bn_topbar a:hover {
+  text-decoration: none; }
+
+input {
+  /*-webkit-appearance:none;*/
+  box-sizing: border-box; }
