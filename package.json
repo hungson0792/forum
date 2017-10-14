@@ -1,0 +1,30 @@
+{
+  "name": "forum",
+  "version": "1.0.0",
+  "description": "the forum for post message",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-less": "^3.3.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "livereload": "^0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungson0792/forum.git"
+  },
+  "author": "son.trinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungson0792/forum/issues"
+  },
+  "homepage": "https://github.com/hungson0792/forum#readme"
+}
