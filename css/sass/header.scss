@@ -38,6 +38,77 @@
         }
        
     }
+    &__top {
+        flex: 1;
+
+        &-wrapper {
+            flex: 1;
+            align-self: center;
+            margin-right: 100px;
+        }
+    }
+    
+    &__search-expand {
+        font-size: 29px;
+        line-height: 1;
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: #929292;
+        background-color: $BN-WHITE;  
+        float: right;
+        margin-left: 1px;       
+    }
+    &__search-box {
+        float: right;
+    }
+    &__search-input {
+        background-color: $BN-WHITE;
+        width: 145px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        height: 30px;
+        padding: 0 3px;
+        border: 0;
+        font: 0.8em bold $BN-FONT-BASE;
+        outline: none;
+        margin-left: 1px;
+    }
+    
 
 }
-
+.bn_top-nav {
+    &__list {
+        height: 78px;
+        line-height: 78px;
+    }
+    &__item {
+        display:inline-block;        
+    }
+    &__link {
+        text-transform: uppercase;
+        font: bold 1.071em $BN-FONT-BASE;
+        color: $BN-BLACK;        
+        padding-left: 10px;
+    }
+    &__link:hover {
+        color: $BN-TOPNAV-ACTIVE;
+    }
+    &--active {
+        color: $BN-TOPNAV-ACTIVE;
+        position: relative;
+    
+    &:before {
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: $BN-TOPNAV-ACTIVE;
+        width: calc(100% - 10px);
+        position: absolute;
+        bottom: -2px;
+        left: 10px;
+    }
+    }
+    
+}
